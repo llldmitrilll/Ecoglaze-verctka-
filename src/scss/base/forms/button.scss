@@ -1,0 +1,38 @@
+//<BUTTONS (a.btn+tab)>
+// Снипет (HTML): btn
+
+.button {
+	display: inline-flex;
+	padding: 19px 48px;
+	border: 1px solid #96CA2D;
+	border-radius: 50px;
+	transition: 0.3s;
+	color: #96CA2D;
+	width: rem(190);
+	margin-top: rem(36);
+
+	svg {
+		margin-left: 12px;
+		margin-top: 2px;
+		fill: #96CA2D;
+		stroke: inherit;
+		height: 15px;
+		width: 18px;
+	}
+
+	@media (any-hover: hover) {
+		&:hover {
+			background: #96CA2D;
+			color: #fff;
+
+			svg {
+				fill: #fff;
+				stroke: inherit
+			}
+		}
+	}
+
+	&._fw {
+		width: 100%;
+	}
+}

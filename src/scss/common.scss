@@ -1,0 +1,14 @@
+// Заголовки, общие БЄМ блоки и проче...
+.--title {
+   position: relative;
+   @include adaptiveValue("font-size", 48, 32);
+   font-weight: 600;
+
+   &-w {
+      color: white;
+   }
+}
+
+.--title-dot {
+   color: #96CA2D;
+}

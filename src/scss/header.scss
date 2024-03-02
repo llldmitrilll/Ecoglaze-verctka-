@@ -1,0 +1,177 @@
+//====================================================================================================
+.header {
+	position: relative;
+
+
+	&__container {
+		position: absolute;
+		margin-top: rem(20);
+		top: 0;
+		left: 50%;
+		width: calc(100% - 30px);
+		transform: translateX(-50%);
+		display: flex;
+		justify-content: space-between;
+
+	}
+
+	&__logo {
+		width: 230px;
+		margin-right: 15px;
+	}
+
+	&__logo-svg {
+		@include adaptiveValue("width", 230, 145, 1000, 360, 1);
+		@include adaptiveValue("height", 63, 39, 1000, 360, 1);
+		height: rem(63);
+	}
+
+	&__links {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		color: white;
+		text-transform: uppercase;
+
+		@media (max-width:$tablet) {
+			display: none;
+			width: rem(0);
+		}
+	}
+
+
+	&__link {
+		&:first-child {
+			margin-right: rem(30);
+		}
+	}
+
+	&__contacts {
+		display: flex;
+		align-items: center;
+	}
+
+	&__tel {
+		display: flex;
+		align-items: center;
+		margin-right: rem(21);
+
+		@media (any-hover: hover) {
+			&:hover {
+				&>.header__tel-icon {
+					fill: #96CA2D;
+				}
+			}
+		}
+
+		@media (any-hover: hover) {
+			&:hover {
+				.header__tel-number {
+					color: #96CA2D;
+				}
+			}
+		}
+	}
+
+	&__tel-icon {
+		margin-right: rem(12);
+		width: rem(20);
+		height: rem(20);
+		transform: translateX(32px);
+		fill: #fff;
+		transition: 0.3s;
+	}
+
+	&__tel-number {
+		font-size: rem(18);
+		font-weight: 700;
+		color: white;
+		position: relative;
+		width: rem(172);
+		padding-left: rem(35);
+		transition: 0.3s;
+	}
+
+	&__btn {
+		display: inline-flex;
+		align-items: center;
+		padding: 16px 38px;
+		color: #96CA2D;
+		border: 2px solid #96CA2D;
+		border-radius: 60px;
+		width: rem(180);
+		transition: all 0.5s;
+
+		@media (any-hover: hover) {
+			&:hover {
+				background-color: #96CA2D;
+				color: #000;
+			}
+		}
+	}
+}
+
+.header-link {
+	transition: all 0.5s;
+
+	@media (any-hover: hover) {
+		&:hover {
+			color: #96CA2D;
+		}
+	}
+}
+
+
+
+//====================================================================================================
+
+//Burger
+/*
+.icon-menu {
+	display: none;
+	@media (max-width: $mobile) {
+		display: block;
+		position: relative;
+		width: rem(30);
+		height: rem(18);
+		cursor: pointer;
+		z-index: 5;
+		span,
+		&::before,
+		&::after {
+			content: "";
+			transition: all 0.3s ease 0s;
+			right: 0;
+			position: absolute;
+			width: 100%;
+			height: rem(2);
+			background-color: #000;
+		}
+		&::before {
+			top: 0;
+		}
+		&::after {
+			bottom: 0;
+		}
+		span {
+			top: calc(50% - rem(1));
+		}
+		.menu-open & {
+			span {
+				width: 0;
+			}
+			&::before,
+			&::after {
+			}
+			&::before {
+				top: calc(50% - rem(1));
+				transform: rotate(-45deg);
+			}
+			&::after {
+				bottom: calc(50% - rem(1));
+				transform: rotate(45deg);
+			}
+		}
+	}
+}
+*/

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<section data-fullscreen class="page__fullscreen fullscreen fullscreen-image">
+				<div class="fullscreen__container main">
+					<div class="main__content">
+						<div class="main__body">
+							<div class="main__advantages">No peal, no crack, no chip</div>
+							<h1 class="main__name">Odorless bathtub and shower
+								tray reglazing with zero VOC</h1>
+							<div class="main__paragraph">
+								<p class="main__label">3 years warranty for free for commercial objects
+									and 5 years warranty for residential objects</p>
+							</div>
+							<button type="button" class="main__button">
+								<div class="button__main-text">Go to shop</div>
+								<!-- <div class="button__main-arrow-rotate"> -->
+								<svg class="button__main-text-svgarrow">
+									<use xlink:href="@img/icons/icons.svg#m_arrow"></use>
+								</svg>
+								<!-- </div> -->
+
+							</button>
+						</div>
+						<div class="main__footer">
+							<div class="main__card card-main">
+								<div class="card-main__number">15</div>
+								<p class="card-main__text">years of endurance after restoration</p>
+							</div>
+							<div class="main__card card-main">
+								<div class="card-main__number">5</div>
+								<p class="card-main__text">years of guarantee</p>
+							</div>
+							<div class="main__card card-main">
+								<div class="card-main__number">10</div>
+								<p class="card-main__text">times thicker than any spray painting</p>
+							</div>
+						</div>
+					</div>
+					<div class="fullscreen__image-ibg bg">
+						<img src="@img/full_screen/main_screen.jpg" alt="">
+					</div>
+				</div>
+			</section>
+			<section class="page__advantages advantages">
+				<div class="advantages__container">
+					<h2 class="advantages__title --title">Advantages of our technology<span
+							class="advantages__title-dot --title-dot">.</span></h2>
+					<div class="advantages__body">
+						<div class="advantages__card card">
+							<div class="card__label">01</div>
+							<h3 class="card__title">Resistant coating</h3>
+							<div class="card__text">Our coating never wears out and cracks</div>
+						</div>
+						<div class="advantages__card card">
+							<div class="card__label">02</div>
+							<h3 class="card__title">Resistant coating</h3>
+							<div class="card__text">There is no smell during restoration and after restoration</div>
+						</div>
+						<div class="advantages__card card">
+							<div class="card__label">03</div>
+							<h3 class="card__title">Resistant coating</h3>
+							<div class="card__text">A smooth, glossy finish is applied creating the surface like a mirror</div>
+
+						</div>
+						<div class="advantages__card card">
+							<div class="card__label">04</div>
+							<h3 class="card__title">Resistant coating</h3>
+							<div class="card__text">The thickness of our finishcoating is multiple times more than spray
+								coating</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__services services">
+				<div class="services__container">
+					<h1 class="services__title --title">Our services<span class="services__title-dot --title-dot">.</span>
+					</h1>
+					<div class="services__body">
+						<ul class="services__list services-item">
+							<li class="services-item__item --services-item-active">
+
+								<a href="" class="services-item__image -ibg">
+									<img src="@img/services/bath.jpg " alt="">
+									<h2 class="services-item__title">For privete customers</h2>
+									<div class="services-item__svgarrow-bg">
+										<svg class="services-item__svgarrow">
+											<use xlink:href="@img/icons/icons.svg#m_arrow"></use>
+										</svg>
+									</div>
+								</a>
+							</li>
+							<li class="services-item__item">
+								<a href="" class="services-item__image -ibg">
+									<img src="@img/services/shower.jpg" alt="">
+									<h2 class="services-item__title">For privete managment</h2>
+									<div class="services-item__svgarrow-bg">
+										<svg class="services-item__svgarrow">
+											<use xlink:href="@img/icons/icons.svg#m_arrow"></use>
+										</svg>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="page__catalog catalog">
+				<div class="catalog__container">
+					<div class="catalog__head">
+						<h2 class="catalog__title --title">Bestsellers in our catalog<span
+								class="advantages__title-dot --title-dot">.</span></h2>
+						<div class="catalog__controls">
+							<!-- Если нужна навигация (влево/вправо) -->
+							<button type="button" class="swiper-button-prev">
+								<svg class="catalog__arrow">
+									<use xlink:href="@img/icons/icons.svg#arrow_slider"></use>
+								</svg>
+							</button>
+							<button type="button" class="swiper-button-next">
+								<svg class="catalog__arrow">
+									<use xlink:href="@img/icons/icons.svg#arrow_slider"></use>
+								</svg>
+							</button>
+						</div>
+					</div>
+
+					<div class="catalog__body">
+						<!-- Оболочка слайдера -->
+						<div class="catalog__slider swiper">
+							<!-- Двигающееся часть слайдера -->
+							<div class="catalog__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="catalog__slide swiper-slide">
+									<a href="" class="swiper-slide__card">
+										<div class="swiper-slide__image-ibg">
+											<img src="@img/catalog/product1.jpg" alt="product1">
+											<div class="swiper-slide__arrow-hover-bg">
+												<svg class="swiper-slide__arrow-hover">
+													<use xlink:href="@img/icons/icons.svg#m_arrow"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="swiper-slide__content">
+											<div class="swiper-slide__info">
+												<h4 class="swiper-slide__title">Enamel epoxy sink refinishing kit</h4>
+												<div class="swiper-slide__price">$ 70</div>
+											</div>
+											<div class="swiper-slide__text">This kit is ideal for a small sink</div>
+										</div>
+									</a>
+								</div>
+								<div class="catalog__slide swiper-slide">
+									<a href="" class="swiper-slide__card">
+										<div class="swiper-slide__image-ibg">
+											<img src="@img/catalog/product2.jpg" alt="product2">
+											<div class="swiper-slide__arrow-hover-bg">
+												<svg class="swiper-slide__arrow-hover">
+													<use xlink:href="@img/icons/icons.svg#m_arrow"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="swiper-slide__content">
+											<div class="swiper-slide__info">
+												<h4 class="swiper-slide__title">Enamel epoxy sink refinishing kit</h4>
+												<div class="swiper-slide__price">$ 70</div>
+											</div>
+											<div class="swiper-slide__text">This kit is ideal for a small sink</div>
+										</div>
+									</a>
+								</div>
+								<div class="catalog__slide swiper-slide">
+									<a href="" class="swiper-slide__card">
+										<div class="swiper-slide__image-ibg">
+											<img src="@img/catalog/product3.jpg" alt="product3">
+											<div class="swiper-slide__arrow-hover-bg">
+												<svg class="swiper-slide__arrow-hover">
+													<use xlink:href="@img/icons/icons.svg#m_arrow"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="swiper-slide__content">
+											<div class="swiper-slide__info">
+												<h4 class="swiper-slide__title">Enamel epoxy sink refinishing kit</h4>
+												<div class="swiper-slide__price">$ 70</div>
+											</div>
+											<div class="swiper-slide__text">This kit is ideal for a small sink</div>
+										</div>
+									</a>
+								</div>
+								<div class="catalog__slide swiper-slide">
+									<a href="" class="swiper-slide__card">
+										<div class="swiper-slide__image-ibg">
+											<img src="@img/catalog/product4.jpg" alt="product4">
+											<div class="swiper-slide__arrow-hover-bg">
+												<svg class="swiper-slide__arrow-hover">
+													<use xlink:href="@img/icons/icons.svg#m_arrow"></use>
+												</svg>
+											</div>
+										</div>
+										<div class="swiper-slide__content">
+											<div class="swiper-slide__info">
+												<h4 class="swiper-slide__title">Enamel epoxy sink refinishing kit</h4>
+												<div class="swiper-slide__price">$ 170</div>
+											</div>
+											<div class="swiper-slide__text">This kit is ideal for a small sink</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__stages stages">
+				<div class="stages__container">
+					<h1 class="stages__title --title">Stages of Work<span class="stages__title-dot --title-dot">.</span>
+					</h1>
+					<div class="stages__body">
+						<div class="stages__video-block">
+							<div class="stages__video">
+								<!-- <video src="@img/stages/video.jpg" alt="video"> -->
+								<video preload="metadata" controls src="@img/stages/video.mp4"></video>
+							</div>
+							<svg class="stages__svg-play">
+								<use xlink:href="@img/icons/icons.svg#play"></use>
+							</svg>
+						</div>
+						<div class="stages__stages">
+							<ul class="stages__progres progres-stages">
+								<li class="progres-stages__card">
+									<div class="progres-stages__row">
+										<div class="progres-stages__column">
+											<div class="progres-stages__number">
+												<span class="progres-stages__number-span">01</span>
+												<div class="progres-stages__ellipse">
+													<img src="@img/stages/ellips1.svg" alt="">
+												</div>
+											</div>
+											<svg class="progres-stages__dotdotdot">
+												<use xlink:href="@img/icons/icons.svg#dotdotdot"></use>
+											</svg>
+										</div>
+										<div class="progres-stages__column">
+											<h4 class="progres-stages__title">Call</h4>
+											<p class="progres-stages__text">You call or order a call back</p>
+										</div>
+									</div>
+								</li>
+								<li class="progres-stages__card">
+									<div class="progres-stages__row">
+										<div class="progres-stages__column">
+											<div class="progres-stages__number">
+												<span class="progres-stages__number-span">02</span>
+												<div class="progres-stages__ellipse">
+													<img src="@img/stages/ellips2.svg" alt="">
+												</div>
+											</div>
+											<svg class="progres-stages__dotdotdot">
+												<use xlink:href="@img/icons/icons.svg#dotdotdot"></use>
+											</svg>
+										</div>
+										<div class="progres-stages__column">
+											<h4 class="progres-stages__title">Estimate</h4>
+											<p class="progres-stages__text">We calculate the cost of restoration services</p>
+										</div>
+									</div>
+								</li>
+								<li class="progres-stages__card">
+									<div class="progres-stages__row">
+										<div class="progres-stages__column">
+											<div class="progres-stages__number">
+												<span class="progres-stages__number-span">03</span>
+												<div class="progres-stages__ellipse">
+													<img src="@img/stages/ellips3.svg" alt="">
+												</div>
+											</div>
+											<svg class="progres-stages__dotdotdot">
+												<use xlink:href="@img/icons/icons.svg#dotdotdot"></use>
+											</svg>
+										</div>
+										<div class="progres-stages__column">
+											<h4 class="progres-stages__title">Work</h4>
+											<p class="progres-stages__text">We arrive at the agreed time</p>
+										</div>
+									</div>
+								</li>
+								<li class="progres-stages__card">
+									<div class="progres-stages__row">
+										<div class="progres-stages__column">
+											<div class="progres-stages__number">
+												<span class="progres-stages__number-span">04</span>
+												<div class="progres-stages__ellipse">
+													<img src="@img/stages/ellips4.svg" alt="">
+												</div>
+											</div>
+										</div>
+										<div class="progres-stages__column">
+											<h4 class="progres-stages__title">Guarantee</h4>
+											<p class="progres-stages__text">We provide up to 5 years warranty</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__samples samples">
+				<div class="samples__container">
+					<h2 class="samples__title --title">Our samples<span class="stages__title-dot --title-dot">.</span></h2>
+					<div class="samples__body">
+						<div class="samples__card card-samples">
+							<div class="card-samples__item">
+								<div class="card-samples__image-ibg">
+									<div class="card-samples__resize">
+										<img src="@img/samples/arrows.svg" alt="">
+									</div>
+									<div class="card-samples__image-fullscreen">
+										<img src="@img/samples/expand-wide.svg" alt="">
+									</div>
+
+									<img class="card-samples__image-after" src="@img/samples/after2.jpg" alt="after">
+									<img class="card-samples__image-before" src="@img/samples/before.jpg" alt="before">
+								</div>
+								<div class="card-samples__text">Refinished bathtub as you treat new bathtub</div>
+							</div>
+							<div class="card-samples__item">
+								<div class="card-samples__image-ibg">
+									<div class="card-samples__resize">
+										<img src="@img/samples/arrows.svg" alt="">
+									</div>
+									<div class="card-samples__image-fullscreen">
+										<img src="@img/samples/expand-wide.svg" alt="">
+									</div>
+
+									<img class="card-samples__image-after" src="@img/samples/after2.jpg" alt="after">
+									<img class="card-samples__image-before" src="@img/samples/before.jpg" alt="before">
+								</div>
+								<div class="card-samples__text">Refinished bathtub as you treat new bathtub</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__feedback feedback">
+				<div class="feedback__container">
+					<div class="feedback__content">
+						<div class="feedback__left-block">
+							<h2 class="feedback__title --title">What our customers say<span
+									class="stages__title-dot --title-dot">.</span></h2>
+							<div class="feedback__slider-block">
+								<!-- Если нужен скролбар -->
+								<div class="feedback-scroll">
+									<div class="feedback-scrollbar swiper-scrollbar"></div>
+								</div>
+								<div class="feedback__slider-button-block">
+									<!-- Если нужна навигация (влево/вправо) -->
+									<button type="button" class="feedback-button-prev">
+										<svg class="feedback__arrow">
+											<use xlink:href="@img/icons/icons.svg#arrow_slider"></use>
+										</svg>
+									</button>
+									<button type="button" class="feedback-button-next">
+										<svg class="feedback__arrow">
+											<use xlink:href="@img/icons/icons.svg#arrow_slider"></use>
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="feedback__right-block">
+							<!-- Оболочка слайдера -->
+							<div class="feedback__slider swiper">
+								<!-- Двигающееся часть слайдера -->
+								<div class="feedback__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="feedback__slide swiper-slide">
+										<div class="feedback-slide__header">
+											<div class="feedback-slide__icon">
+												<img src="@img/feedback/icon.jpg" alt="">
+											</div>
+											<div class="feedback-slide__right-block">
+												<h5 class="feedback-slide__title">Excellent Tub re-glazer service!</h5>
+												<div class="feedback-slide__rating">
+													<!-- =============== -->
+													<div class="rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">4.4</div>
+													</div>
+													<!-- <img src="@img/feedback/rating.svg" alt=""> -->
+												</div>
+											</div>
+										</div>
+										<div class="feedback-slide__body">
+											Everything on point. Tub looks like new. Ready to use in a day w/o the lingering toxic
+											odors in your apt. On time. In & Out quality job, Pro-service technician. Do it right
+											service....
+										</div>
+										<div class="feedback-slide__footer">
+											<div class="feedback-slide__name">Luis A. Felicies</div>
+											<div class="feedback-slide__date">2022-06-06</div>
+										</div>
+									</div>
+									<div class="feedback__slide swiper-slide">
+										<div class="feedback-slide__header">
+											<div class="feedback-slide__icon">
+												<img src="@img/feedback/icon.jpg" alt="">
+											</div>
+											<div class="feedback-slide__right-block">
+												<h5 class="feedback-slide__title">Excellent Tub re-glazer service!</h5>
+												<div class="feedback-slide__rating">
+													<div class="rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">3.4</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="feedback-slide__body">
+											Everything on point. Tub looks like new. Ready to use in a day w/o the lingering toxic
+											odors in your apt. On time. In & Out quality job, Pro-service technician. Do it right
+											service....
+										</div>
+										<div class="feedback-slide__footer">
+											<div class="feedback-slide__name">Luis A. Felicies</div>
+											<div class="feedback-slide__date">2022-06-06</div>
+										</div>
+									</div>
+									<div class="feedback__slide swiper-slide">
+										<div class="feedback-slide__header">
+											<div class="feedback-slide__icon">
+												<img src="@img/feedback/icon.jpg" alt="">
+											</div>
+											<div class="feedback-slide__right-block">
+												<h5 class="feedback-slide__title">Excellent Tub re-glazer service!</h5>
+												<div class="feedback-slide__rating">
+													<div class="rating rating_set">
+														<div class="rating__body">
+															<div class="rating__active"></div>
+															<div class="rating__items">
+																<input type="radio" class="rating__item" value="1" name="rating">
+																<input type="radio" class="rating__item" value="2" name="rating">
+																<input type="radio" class="rating__item" value="3" name="rating">
+																<input type="radio" class="rating__item" value="4" name="rating">
+																<input type="radio" class="rating__item" value="5" name="rating">
+															</div>
+														</div>
+														<div class="rating__value">5</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="feedback-slide__body">
+											Everything on point. Tub looks like new. Ready to use in a day w/o the lingering toxic
+											odors in your apt. On time. In & Out quality job, Pro-service technician. Do it right
+											service....
+										</div>
+										<div class="feedback-slide__footer">
+											<div class="feedback-slide__name">Luis A. Felicies</div>
+											<div class="feedback-slide__date">2022-06-06</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__latest latest">
+				<div class="latest__container">
+					<div class="latest__header">
+						<h2 class="latest__title --title">Latest articles<span class="stages__title-dot --title-dot">.</span>
+						</h2>
+						<div class="latest__sub-title">
+							<a href="" class="latest__latest-all">
+								All articles
+							</a>
+							<svg class="latest__svgarrow">
+								<use xlink:href="@img/icons/icons.svg#m_arrow"></use>
+							</svg>
+						</div>
+					</div>
+					<div class="latest__body">
+						<ul class="latest__articles">
+							<li class="latest__article article">
+
+								<a href="#" class="article__link">
+									<div class="article__image-ibg">
+										<img src="@img/latest/photo.jpg" alt="">
+										<svg class="article__svgarrow">
+											<use xlink:href="@img/icons/icons.svg#m_arrow"></use>
+										</svg>
+									</div>
+
+									<div class="article__info">
+										<div class="article__date">June 21, 2021</div>
+										<div class="article__name">Nick Brighton</div>
+										<div class="article__shareNet">
+											<img src="@img/latest/ShareNet.svg" alt="">
+										</div>
+									</div>
+									<div class="article__content">
+										<h4 class="article__title">Post-Reglaze Care Information</h4>
+										<div class="article__text">Treat your refinished bathtub as you treat new bathtub. Never
+											use abrasive cleaners or abrasive pads.
+										</div>
+									</div>
+								</a>
+
+
+							</li>
+							<li class="latest__article article">
+								<a href="#" class="article__link">
+									<div class="article__image-ibg">
+										<img src="@img/latest/photo (1).jpg" alt="">
+										<svg class="article__svgarrow">
+											<use xlink:href="@img/icons/icons.svg#m_arrow"></use>
+										</svg>
+									</div>
+									<div class="article__info">
+										<div class="article__date">June 2, 2021</div>
+										<div class="article__name">Nick Brighton</div>
+										<div class="article__shareNet">
+											<img src="@img/latest/ShareNet.svg" alt="">
+										</div>
+									</div>
+									<div class="article__content">
+										<h4 class="article__title">Post-Reglaze Care Information</h4>
+										<div class="article__text">Treat your refinished bathtub as you treat new bathtub. Never
+											use abrasive cleaners or abrasive pads.
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="latest__article article">
+								<a href="#" class="article__link">
+									<div class="article__image-ibg">
+										<img src="@img/latest/photo (2).jpg" alt="">
+										<svg class="article__svgarrow">
+											<use xlink:href="@img/icons/icons.svg#m_arrow"></use>
+										</svg>
+									</div>
+
+									<div class="article__info">
+										<div class="article__date">June 2, 2021</div>
+										<div class="article__name">Nick Brighton</div>
+										<div class="article__shareNet">
+											<img src="@img/latest/ShareNet.svg" alt="">
+										</div>
+									</div>
+									<div class="article__content">
+										<h4 class="article__title">Post-Reglaze Care Information</h4>
+										<div class="article__text">Treat your refinished bathtub as you treat new bathtub. Never
+											use abrasive cleaners or abrasive pads.
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			@@include('html/_form.htm',{})
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>

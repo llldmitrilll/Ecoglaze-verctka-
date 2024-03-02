@@ -1,0 +1,9 @@
+17:31:13] Using gulpfile ~\Desktop\portfolio\Ecoglaze\gulpfile.js
+[17:31:13] Starting 'sprite'...
+[17:31:13] 'sprite' errored after 103 ms
+[17:31:13] Error in plugin "gulp-svg-sprite"        
+Message:
+    Optimizing "%s" with SVGO failed with error "%s"
+Details:
+    domainEmitter: [object Object]
+    domainThrown: false
